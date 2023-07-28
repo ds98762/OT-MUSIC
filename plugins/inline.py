@@ -21,14 +21,14 @@ from config import Config
 REPLY_MESSAGE=Config.REPLY_MESSAGE
 buttons = [
     [
-        InlineKeyboardButton('🏃 Deploy to Heroku 🏃', url='https://heroku.com/deploy?template=https://github.com/ZauteKm/MusicPlayer'),
+        InlineKeyboardButton('🔥 Owner 🔥', url='https://t.me/GodFath3r_xD'),
     ],
     [
-        InlineKeyboardButton('👨‍🎤 Play Music', url=f'https://t.me/{USERNAME}'),
-        InlineKeyboardButton('How to Deploy 🤓', url='https://t.me/c/josprojects/131'),
+        InlineKeyboardButton('🔥 Updates 🔥', url=f'https://t.me/Soul_x6'),
+        InlineKeyboardButton('🔥 Support 🔥', url='https://t.me/Our_Talks'),
     ],
     [
-        InlineKeyboardButton('🆘 Help & Commands 🆘', callback_data='help')       
+        InlineKeyboardButton('🔥 Help & Commands 🔥', callback_data='help')       
     ]
     ]
 @Client.on_inline_query()
