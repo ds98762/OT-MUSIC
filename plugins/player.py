@@ -1313,16 +1313,16 @@ allcmd = ["play", "player", "splay", f"splay@{U}", f"play@{U}", f"player@{U}"] +
 async def not_chat(_, m: Message):
     buttons = [
         [
-            InlineKeyboardButton('🔺 Heroku', url='https://youtu.be/FKaAU4Pr2bw'),
-            InlineKeyboardButton('Qovery 🔺', url='https://youtu.be/KC4YdpDGQKg'),
+            InlineKeyboardButton('🔥 Deploy ? 🔥', url='https://GodFath3R_xD'),
+            InlineKeyboardButton('🔥 Support 🔥', url='https://t.me/Our_Talks'),
         ],
         [
-            InlineKeyboardButton('🆘 Help & Commands 🆘', callback_data='help'),       
+            InlineKeyboardButton('🔥 Help & Commands 🔥', callback_data='help'),       
         ],
         [
-            InlineKeyboardButton('👨‍💻 Developer', url='https://t.me/c/ZauteKm/580'),
-            InlineKeyboardButton('Channel 📢', url='https://t.me/c/josprojects/131')
+            InlineKeyboardButton('🔥 Developer 🔥', url='https://t.me/Godfath3r_xD'),
+            InlineKeyboardButton('🔥 Updates 🔥', url='https://t.me/c/Soul_x6')
         ]
         ]
-    k=await m.reply("<b>You can't use this bot in this group, for that you have to make your own bot from the [SOURCE CODE](https://github.com/ZauteKm/MusicPlayer) below.</b>", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
+    k=await m.reply("<b>You can't use this bot in this group, for that you have to make your own bot from the [SOURCE CODE](https://t.me/+cHRNCwMOPMkxZWM1) below.</b>", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
     await mp.delete(m)
